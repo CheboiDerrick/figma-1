@@ -1,7 +1,7 @@
 /*font-family: 'Mate SC', serif;
 font-family: 'PT Sans', sans-serif;*/
 body{
-  background-image: url('./assets/thumb-1920-271158.jpg');
+  background-image: url(/assets/thumb-1920-271158.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -50,13 +50,12 @@ footer{
   margin-top: 5%;
   margin-bottom: 0;
   height: 100px;
-  text-align: center;
+  justify-content: center;
   font-family: 'PT Sans', sans-serif;
+  display: flex;
+  align-items: center;
   }
  img{
   height: 200px;
   width: 200px;
-}
-footer p{
-  top: 10px;
 }
