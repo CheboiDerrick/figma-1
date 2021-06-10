@@ -1,0 +1,63 @@
+/*font-family: 'Mate SC', serif;
+font-family: 'PT Sans', sans-serif;*/
+body{
+  background-image: url('./assets/thumb-1920-271158.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#nav{
+  background-color: grey;
+}
+
+#nav p{
+  margin-left:2% ;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+
+nav ul li{
+  display:inline;
+  list-style: none;
+  padding-right: 2px;
+}
+
+#aboutus{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+#product{
+  display: flex;
+}
+#product div{
+  padding:18px 20px 18px 20px;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  font-family: 'Mate SC', serif;
+
+}
+#product>div{
+  background-color: whitesmoke;
+  opacity: 0.8;
+}
+footer{
+  background-color: whitesmoke;
+  margin-top: 5%;
+  margin-bottom: 0;
+  height: 100px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  }
+ img{
+  height: 200px;
+  width: 200px;
+  
+}
+footer p{
+  top: 10px;
+}
